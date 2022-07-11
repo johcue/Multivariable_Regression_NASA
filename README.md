@@ -1,8 +1,12 @@
 # Multivariable_Regression_NASA
-Clasificación de cuerpos celestes utilizando regresión lineal multivariable utilizando pandas y MATLAB.
 
-La base de datos aquí presentada se puede encontrar en kaggle como \href{https://www.kaggle.com/brsdincer/star-type-classification/}{"Star Type Classification / NASA"}.  El objetivo de esta base de datos se refiere a la predicción del tipo de estrella según medidas astrofísicas. Contiene 240 valores y 7 características. Para este caso, utilicemos la ultima característica como nuestro target el cual, es un conjunto de datos que va de 0 a 5, de la forma 0: Enana Roja, 1: Enana Marrón, 2: Enana Blanca, 3: Secuencia Principal, 4: Super Gigantes y 5: Hiper Gigantes. 
+Classification of celestial bodies using multivariable linear regression - pandas and MATLAB.
 
-Implementación en MATLAB
-Con el preprocesamiento de datos realizado, pasamos a la implementación del modelo en MATLAB. 
-La base de datos empleada posee características con pesos variables, lo cual puede generar problemas en la predicción. Se debe, por tanto, realizar la normalización de los datos; tanto del conjunto de características como el target.
+The database presented here can be found on kaggle as ["Star Type Classification / NASA"](https://www.kaggle.com/brsdincer/star-type-classification/). The objective of this database refers to the prediction of the type of star according to astrophysical measurements. It contains 240 values and 7 characteristics. For this case, let's use the last feature as our target, which is a data set that goes from 0 to 5, in the form 0: Red Dwarf, 1: Brown Dwarf, 2: White Dwarf, 3: Main Sequence, 4 : Super Giants and 5: Hyper Giants.
+
+## Data Encryption
+Since two of the database features are categories, encoding of their data must be performed in order to obtain quantifiable values.
+
+## Implementation in MATLAB
+With the data preprocessing done, we move on to the implementation of the model in MATLAB.
+The database used has characteristics with variable weights, which can generate problems in the prediction. Therefore, data normalization must be performed; of both the feature set and the target.
